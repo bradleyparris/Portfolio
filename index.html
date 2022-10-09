@@ -4,27 +4,35 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./sources/css/style.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
     <title>Bradley Parris</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
 </head>
 <body>
-    <h1>Bradley Parris</h1>
-
-    <!-- Navigation -->
-    <nav>
-        <ul>
-            <li>About Me</li>
-            <li>My Work</li>
-            <li>Contact Info</li>
-        </ul>
-    </nav>
-
+    <header>
+            <h1>Bradley Parris</h1>
+            
+            <!-- Navigation -->
+            <nav>
+                <ul>
+                    <li>
+                        <a>About Me</a>
+                    </li>
+                    <li>
+                        <a>My Work</a>
+                    </li>
+                    <li>
+                        <a>Contact Info</a>
+                    </li>
+                </ul>
+            </nav>
+    </header>
 
 
     <!-- About Me -->
     <section>
                 <!-- Photo -->
-                <img src="./sources/images/new.jpg" alt="photo of Bradley Parris" width="108px" height="119px">
+                <img src="./assets/images/me.jpg" alt="photo of Bradley Parris" width="108px" height="119px">
 
                 <p>
                     Student who's currently enrolled in UNC Charlotte's Full Stack Coding Bootcamp.
@@ -34,7 +42,42 @@
 
 
     <!-- My Work -->
-    <section></section>
+    <section>
+
+        <div class="columns">
+        <!-- Hotel Weather Card -->
+        <div class="column">
+            <div class="card">
+                <!-- Card image -->
+                <div class="card-image ">
+                    <!-- Resize card image -->
+                    <figure class="image is-4by2">
+                        <!-- Link to project -->
+                        <a href="https://github.com/RicardoKContreras/Hotel-Weather" target="_blank">
+                            <img src="./assets/images/hotel-weather.png" />
+                        </a>
+                    </figure>
+                </div>
+            </div>
+        </div>
+
+        <!-- Cat Clicker Card -->
+        <div class ="column">
+            <div class="card">
+                <!-- Card image -->
+                <div class="card-image ">
+                    <!-- Resize card image -->
+                    <figure class="image is-600x300">
+                        <!-- Link to project -->
+                        <a href="https://github.com/deb-boro/cat-game" target="_blank">
+                            <img src="./assets/images/cat-clicker.png" />
+                        </a>
+                    </figure>
+                </div>
+            </div>
+        </div>
+    </div>
+    </section>
 
 
 
